@@ -1,6 +1,5 @@
 import './Navbar.css'
-import { FaRegHeart } from "react-icons/fa";
-import { FaRegUser } from "react-icons/fa";
+import { FaRegHeart, FaRegUser } from "react-icons/fa";
 import { FiShoppingCart } from "react-icons/fi";
 
 const Navbar = () => {
