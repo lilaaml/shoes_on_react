@@ -1,5 +1,5 @@
 import './Navbar.css'
-import { FaRegHeart, FaRegUser } from "react-icons/fa";
+import { CiHeart, CiUser } from "react-icons/ci";
 import { FiShoppingCart } from "react-icons/fi";
 
 const Navbar = () => {
@@ -45,10 +45,10 @@ const Navbar = () => {
                         <button type="submit" className="search-btn btn">Search</button>
                     </form>
                     <li className="nav-item">
-                        <a href="/" className="nav-link"><FaRegUser /></a>
+                        <a href="/" className="nav-link"><CiUser /></a>
                     </li>
                     <li className="nav-item">
-                        <a href="/" className="nav-link"><FaRegHeart /></a>
+                        <a href="/" className="nav-link"><CiHeart /></a>
                     </li>
                     <li className="nav-item">
                         <a href="/" className="nav-link"><FiShoppingCart /></a>
